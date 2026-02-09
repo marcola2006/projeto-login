@@ -14,22 +14,6 @@ lilas:#5f2c82
      box-sizing: border-box;
 }
 
-@media screen and (max-width: 768px) {
-    section#login {
-        width: 90vw;
-        height: 400px;
-    }
-
-    section#login > div#imagem {
-        display: none !important;
-    }
-
-    section#login > div#formulario {
-        width: 100%;
-        height: 100%;
-    }
-    
-}
 
 body, html {
     background-color: #5f2c82;
@@ -62,18 +46,18 @@ section#login {
 }
 
 section#login > div#imagem {
-    display: block !important;
+    display: block;
     background: url(../imagens/pexels-didsss-12274675\ \(1\).jpg) no-repeat;
     background-size: cover;
     height: 200px;
     background-position: center center;
-    position: absolute;
+   
     
 
 }
 
 section#login > div#formulario {
-    display: block !important;
+    display: block ;
     padding: 10px;
 }
 
