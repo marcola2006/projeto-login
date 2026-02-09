@@ -14,6 +14,23 @@ lilas:#5f2c82
      box-sizing: border-box;
 }
 
+@media screen and (max-width: 768px) {
+    section#login {
+        width: 90vw;
+        height: 400px;
+    }
+
+    section#login > div#imagem {
+        display: none !important;
+    }
+
+    section#login > div#formulario {
+        width: 100%;
+        height: 100%;
+    }
+    
+}
+
 body, html {
     background-color: #5f2c82;
     height: 100vh;
